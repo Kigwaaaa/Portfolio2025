@@ -1,4 +1,4 @@
-# Charles Wambua - Professional Portfolio
+# Lewis Mwangi - Professional Portfolio
 
 Welcome to my professional portfolio! This project showcases my skills and experiences as a software engineer. Built with [Create React App](https://github.com/facebook/create-react-app), this portfolio highlights my work and expertise in the field.
 
