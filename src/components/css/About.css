@@ -1,0 +1,77 @@
+.about {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-bottom: 60px;
+  padding: 30px;
+  height: "auto";
+}
+
+.aboutme {
+  display: flex;
+  flex: 0 0 calc(33.33% - 10px);
+  z-index: 1;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--text-color);
+}
+
+.about-me {
+  flex: 0 0 calc(33.33% - 10px);
+  width: auto;
+  height: auto;
+  margin: 0px;
+  border: 5px;
+  border-radius: 10px;
+  background-color: var(--about-me-bg);
+  line-height: 2;
+  padding: 5%;
+}
+
+.about-me img {
+  width: 90%;
+  height: auto;
+  padding-bottom: 0px;
+  position: relative;
+  padding: 10px;
+}
+
+.Lewis {
+  color: #ff299b;
+}
+
+@media (max-width: 760px) {
+  .aboutme {
+    min-height: auto;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me {
+    flex: 0 0 calc(33.33% - 20px);
+    width: auto;
+    height: auto;
+
+    border: 5px;
+    border-radius: 10px;
+    background-color: var(--about-me-bg);
+    line-height: auto;
+    text-align: left;
+    font-size: large;
+  }
+
+  .about-me img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 0px;
+    position: relative;
+    padding: 10px;
+  }
+}
