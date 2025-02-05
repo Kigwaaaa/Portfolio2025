@@ -76,7 +76,7 @@ const Experience = ({ isDarkTheme }) => {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4 className="timeline-title">2024.01 - 2024.10</h4>
+                      <h4 className="timeline-title">2024.09 - 2024.07</h4>
                       <p>
                         <small className="text-muted">
                           <span className="fa fa-map-marker"></span> Nairobi,
@@ -117,7 +117,7 @@ const Experience = ({ isDarkTheme }) => {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4 className="timeline-title">2023.01 - 2023.11</h4>
+                      <h4 className="timeline-title">2024.09 - 2024.07</h4>
                       <p>
                         <small className="text-muted">
                           <span className="fa fa-map-marker"></span> Remote,
