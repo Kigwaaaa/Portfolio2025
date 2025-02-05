@@ -46,7 +46,7 @@ export default function Projects({ isDarkTheme }) {
       year: "2023",
       images: [ "/assets/frstportfolio.png"],
       description:
-        "Diva International is a dynamic marketing platform designed to empower users to earn income through referrals and service purchases. The platform allows users to seamlessly engage with the system, track their referral progress, and access a variety of services, all within a user-friendly interface. This project highlights my ability to create robust, scalable solutions tailored to meet the needs of a growing digital marketplaceF",
+        "This was my first coding project. Starting from scratch I used HTML, CSS, and JavaScript to build a simple, responsive portfolio. The site features a clean design, smooth animations, and a user-friendly layout. It showcases my skills and projects in a professional manner.",
       technologies: [
         "HTML",
         "CSS3",

@@ -69,42 +69,7 @@ const Experience = ({ isDarkTheme }) => {
             </div>
             <div className="experience_container">
               <ul className="timeline">
-                <li>
-                  <div className="timeline-badge default">
-                    <span className="fab fa-gratipay"></span>
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">2024.10 - Present</h4>
-                      <p>
-                        <small className="text-muted">
-                          <span className="fa fa-map-marker"></span> Remote,
-                          Kenya
-                        </small>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="timeline-content">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Software Engineer</h4>
-                    </div>
-
-                    <div className="timeline-body">
-                      <p>
-                        <b>Company:</b>  Solutions
-                        <br />
-                        <b>Introduction:</b> VenerTech Solutions is an IT Solutions company that offers System support and IT Consulting services to Businesses.
-                        <br />
-                        <b>Contribution:</b> As the main Software Engineer at the startup, I lead the full-stack development, DevOps, and deployment processes, building scalable web applications with real-time functionality using WebSockets. I am responsible for architecting and implementing the backend, designing intuitive frontend interfaces, managing cloud infrastructure, and ensuring seamless CI/CD pipelines. My role requires end-to-end ownership of the software lifecycle, from development and testing to deployment and monitoring, while optimizing system performance to meet the dynamic needs of a growing business.
-                        <br />
-                        <b>Skills:</b>Full-Stack Development, WebSockets, React.js, Node.js, Express.js, PostgreSQL, MongoDB, REST APIs, CI/CD Pipelines, DevOps, Cloud Infrastructure (GCP, AWS), Docker, Kubernetes, Agile Development, Real-Time Communication, Version Control (Git), Unit Testing, System Monitoring and Optimization.
-                        <br />
-                        <b>Main Tools:</b> Git, JIRA, Docker,Gitlab, Slack,
-                        Clickup, Sentry, Pagerduty,GCP, pgAdmin
-                      </p>
-                    </div>
-                  </div>
-                </li>
+                
                 <li>
                   <div className="timeline-badge default">
                     <span className="fab fa-gratipay"></span>
@@ -127,30 +92,21 @@ const Experience = ({ isDarkTheme }) => {
 
                     <div className="timeline-body">
                       <p>
-                        <b>Company:</b> Roam Electric
+                        <b>Company:</b> MentorNest
                         <br />
-                        <b>Introduction:</b> Roam Electric is a leading company
-                        in the electric vehicle industry, focusing on
-                        sustainable transportation solutions. I was part of the
+                        <b>Introduction:</b> MentorNest is a that connects users with potential mentors based on their fields, skills, or the mentor's achievements. The goal is to create meaningful mentorship opportunities where people can learn from experienced professionals, grow their careers, and develop skills.
+                        <br />
+                        <b>Contribution:</b>  I was part of the
                         team responsible for developing and maintaining various
                         software solutions that support the company's products
-                        and services.
+                        and services. I conducted the usability test on the website and onboarded volunteers to test the website.
+                        I also managed the websites X's account creating and editing attractive ads for the website.
                         <br />
-                        <b>Contribution:</b> Worked on both front-end and
-                        back-end development for various projects, including web
-                        and mobile applications. Implemented and deployed
-                        features using React.js, React Native, and Express.js.
-                        Managed databases with MySQL, and handled deployments
-                        using Google Cloud Platform (GCP) and Kubernetes.
-                        Successfully deployed iOS and Android applications to
-                        their respective stores.
-                        <br />
-                        <b>Skills:</b> React.js, React Native, Express.js,
-                        MySQL, GCP, Kubernetes, iOS/Android Deployments
+                        <b>Skills:</b> us
                         <br />
                         <b>Main Tools:</b> Git, JIRA, Docker,Gitlab, Slack,
-                        Clickup, Sentry, Pagerduty,GCP, Google Play Console,
-                        Apple Developer
+                        Clickup, Sentry, Pagerduty,GCP, Social Media,
+                        Canva
                       </p>
                     </div>
                   </div>
@@ -178,21 +134,15 @@ const Experience = ({ isDarkTheme }) => {
                     </div>
                     <div className="timeline-body">
                       <p>
-                        <b>Company:</b> TechA
+                        <b>Company:</b> Kenyan School Finder
                         <br />
-                        <b>Introduction:</b> TechA is a technology solutions
-                        provider specializing in web and app development. 
+                        <b>Introduction:</b> Kenyan School Finder is a website that helps users look for schools according to requirements and allows schools to promote themselves . 
                         <br />
-                        <b>Contribution:</b> Contributed to the development of
-                        several websites and mobile applications. Worked with a
-                        team to design, develop, and test new features using
-                        modern web technologies. Gained hands-on experience with
-                        project management tools and collaborative workflows.
+                        <b>Contribution:</b> Created the frameworks for the design of the Minimum Viable Product of th website from different users point of vieew.
                         <br />
-                        <b>Skills:</b> HTML5, CSS3, JavaScript, React.js,
-                        NextJs, Postgres, Express.js Node.js
+                        <b>Skills:</b> Graphic Design, UI/UX Design
                         <br />
-                        <b>Main Tools:</b> Git, JIRA, Visual Studio Code, Gitlab
+                        <b>Main Tools:</b> Figma, Git, JIRA, Visual Studio Code, Gitlab
                       </p>
                     </div>
                   </div>

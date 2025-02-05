@@ -77,12 +77,12 @@ function Experience() {
         </li>
       </ul>
 
-      <h3>Internship at TalentCompass, Nrb</h3>
+      <h3>Internship, Nrb</h3>
       <ul>
         <li>
           <DescriptionContainer showFullDescription={showFullDescription['internship']} className='descriptionContainer'>
             <Description onClick={() => toggleDescription('internship')}>
-              During my internship at the TalentCompass, I had the privilege of working on projects that have a positive impact on the industry. I gained valuable insights into the field and contributed to cutting-edge initiatives.
+              I worked under a startup where I created usable frameworks for a new website(). I also incharge of conducting a usability test on an already created website() where I onboarded volunteers to test the website. 
               {showFullDescription['internship'] || <Ellipsis onClick={() => toggleDescription('internship')}>...</Ellipsis>}
             </Description>
           </DescriptionContainer>
