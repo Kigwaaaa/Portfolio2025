@@ -60,7 +60,7 @@ export default function Projects({ isDarkTheme }) {
       id: 3,
       title: (
         <a
-          href="https://charles-dev-portfolio.onrender.com/"
+          href="https://gichobiportfolio.onrender.com"
           className="tittle"
           target="_blank"
           rel="noopener noreferrer"
