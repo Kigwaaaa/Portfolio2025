@@ -86,6 +86,14 @@
     color: #ffffff;
   }
    */
+   .light-theme .footer-credits a{
+    color: #888;
+  }
+
+  .dark-theme .footer-credits a {
+    
+    color: #ffffff;
+  }
   .dark-theme .social-links a:hover {
     color: #fa17b6;
   }
