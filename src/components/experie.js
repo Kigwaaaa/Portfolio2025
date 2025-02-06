@@ -94,7 +94,7 @@ const Experience = ({ isDarkTheme }) => {
                       <p>
                         <b>Company:</b> MentorNest
                         <br />
-                        <b>Introduction:</b> MentorNest is a that connects users with potential mentors based on their fields, skills, or the mentor's achievements. The goal is to create meaningful mentorship opportunities where people can learn from experienced professionals, grow their careers, and develop skills.
+                        <b>Introduction:</b> MentorNest is a website that connects users with potential mentors based on their fields, skills, or the mentor's achievements. The goal is to create meaningful mentorship opportunities where people can learn from experienced professionals, grow their careers, and develop skills.
                         <br />
                         <b>Contribution:</b>  I was part of the
                         team responsible for developing and maintaining various
@@ -102,11 +102,11 @@ const Experience = ({ isDarkTheme }) => {
                         and services. I conducted the usability test on the website and onboarded volunteers to test the website.
                         I also managed the websites X's account creating and editing attractive ads for the website.
                         <br />
-                        <b>Skills:</b> us
+                        <b>Skills:</b> Social Media Marketing, 
                         <br />
-                        <b>Main Tools:</b> Git, JIRA, Docker,Gitlab, Slack,
+                        <b>Main Tools:</b> Git,
                         Clickup, Sentry, Pagerduty,GCP, Social Media,
-                        Canva
+                        Canva, X
                       </p>
                     </div>
                   </div>
