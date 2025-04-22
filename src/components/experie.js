@@ -129,7 +129,7 @@ const Experience = ({ isDarkTheme }) => {
                   <div className="timeline-content">
                     <div className="timeline-heading">
                       <h4 className="timeline-title">
-                        Software Developer
+                        UI\UX Designer
                       </h4>
                     </div>
                     <div className="timeline-body">
@@ -143,6 +143,42 @@ const Experience = ({ isDarkTheme }) => {
                         <b>Skills:</b> Graphic Design, UI/UX Design
                         <br />
                         <b>Main Tools:</b> Figma, Git, JIRA, Visual Studio Code, Gitlab
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                <div className="timeline-badge default">
+                    <span className="fab fa-gratipay"></span>
+                  </div>
+                  <div className="timeline-panel">
+                    <div className="timeline-heading">
+                      <h4 className="timeline-title">2025.04 - 2024.08</h4>
+                      <p>
+                        <small className="text-muted">
+                          <span className="fa fa-map-marker"></span> Remote,
+                          Kenya
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="timeline-content">
+                    <div className="timeline-heading">
+                      <h4 className="timeline-title">
+                        CS50
+                      </h4>
+                    </div>
+                    <div className="timeline-body">
+                      <p>
+                        <b>Company:</b> Harvard University
+                        <br />
+                        <b>Introduction:</b> Kenyan School Finder is a website that helps users look for schools according to requirements and allows schools to promote themselves . 
+                        <br />
+                        <b>Contribution:</b> Solved algorithmic problems, built web applications, and implemented projects that demonstrated proficiency in computational thinking, software logic, and efficient problem-solving techniques.
+                        <br />
+                        <b>Skills:</b> Algorithms & Data Structures, Memory management, Debugging and testing, Web programming (back-end & front-end), Databases and querying (SQL), Code readability and best practices
+                        <br />
+                        <b>Main Tools:</b> Visual Studio Code, Gitlab, GitHub
                       </p>
                     </div>
                   </div>
