@@ -172,13 +172,13 @@ const Experience = ({ isDarkTheme }) => {
                       <p>
                         <b>Company:</b> Harvard University
                         <br />
-                        <b>Introduction:</b> Kenyan School Finder is a website that helps users look for schools according to requirements and allows schools to promote themselves . 
+                        <b>Introduction:</b>Completed CS50 and CS50P, a rigorous course from Harvard University that builds a strong foundation in the principles of computer science and programming. 
                         <br />
                         <b>Contribution:</b> Solved algorithmic problems, built web applications, and implemented projects that demonstrated proficiency in computational thinking, software logic, and efficient problem-solving techniques.
                         <br />
                         <b>Skills:</b> Algorithms & Data Structures, Memory management, Debugging and testing, Web programming (back-end & front-end), Databases and querying (SQL), Code readability and best practices
                         <br />
-                        <b>Main Tools:</b> Visual Studio Code, Gitlab, GitHub
+                        <b>Main Tools:</b> Flask (for Python-based web development), Git and GitHub(for version control), Python (for building scalable, readable code), HTML, CSS, JavaScript (for creating interactive web applications), SQL (for managing and querying databases)
                       </p>
                     </div>
                   </div>
@@ -204,8 +204,9 @@ const Experience = ({ isDarkTheme }) => {
                     <div className="timeline-body">
                       <p>
                         <b>Scope:</b> Participated in various hackathons held in
-                        Nairobi, Nakuru, and online platforms. These events
-                        focused on solving real-world problems, developing
+                        Nairobi and virtual platforms, tackling themes from fintech and healthcare to environmental sustainability. 
+                        Competed in teams to deliver fully functional prototypes within 24–48‑hour sprints. 
+                        These events focused on solving real-world problems, developing
                         innovative solutions, and showcasing technical skills in
                         a competitive environment.
                         <br />
@@ -216,11 +217,10 @@ const Experience = ({ isDarkTheme }) => {
                         and presenting final solutions. Achieved recognition for
                         creativity, problem-solving, and technical proficiency.
                         <br />
-                        <b>Skills:</b> Hackathon Strategy, Rapid Prototyping,
-                        Team Collaboration, React.js, Node.js, Python
+                        <b>Skills:</b> Hackathon Strategy, Rapid Prototyping & Agile Development,
+                        Cross-functional Team Collaboration, React.js, Node.js, Python
                         <br />
-                        <b>Main Tools:</b> GitHub, Visual Studio Code, Slack,
-                        Zoom
+                        <b>Main Tools:</b> GitHub (version control & CI), Visual Studio Code, Slack & Zoom (remote coordination)
                       </p>
                     </div>
                   </div>
@@ -254,18 +254,14 @@ const Experience = ({ isDarkTheme }) => {
                         applications and mobile apps to experimenting with new
                         frameworks and tools.
                         <br />
-                        <b>Contribution:</b> Designed and implemented several
-                        projects from scratch, including personal websites,
-                        utility tools, and experimental applications. These
-                        projects provided opportunities to apply and refine
-                        knowledge in various programming languages, frameworks,
-                        and deployment techniques.
+                        <b>Contribution:</b> Full‑Stack Web App: Built a task‑management platform with React.js front‑end and Node.js/Express back‑end, integrating real‑time updates via WebSockets and deploying on Heroku; achieved 95% unit‑test coverage. Mobile Expense Tracker: Developed a cross‑platform Flutter app connected to Firebase Firestore for secure data sync, implementing OAuth2 authentication and offline caching for seamless user experience. AI Chatbot Prototype: Designed a customer‑support chatbot using Python and Django REST Framework, connected to a simple NLP pipeline with spaCy, reducing mock support response time by 60%. DevOps Playground: Containerized microservices with Docker, orchestrated with Docker Compose, and automated CI/CD pipelines using GitHub Actions to deploy to both Heroku and AWS EC2.
                         <br />
-                        <b>Skills:</b> React.js, Node.js, Python, Django,
-                        JavaScript, Firebase, Docker
+                        <b>Skills:</b> Front‑end: React.js, JavaScript (ES6+), HTML5 & CSS3, Flutter. 
+                        Back‑end: Node.js/Express, Python/Django, RESTful APIs, Firebase Firestore. 
+                        DevOps & Testing: Docker, CI/CD (GitHub Actions), Jest & Mocha, Unit & Integration Testing
+
                         <br />
-                        <b>Main Tools:</b> GitHub, VS Code, Firebase, Docker,
-                        Heroku
+                        <b>Main Tools:</b> GitHub, Visual Studio Code, Firebase, Docker, Heroku, AWS EC2
                       </p>
                     </div>
                   </div>
