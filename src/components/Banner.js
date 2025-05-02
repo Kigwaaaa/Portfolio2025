@@ -3,14 +3,13 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import "./css/back.css";
+import "./css/banner.css";
 
 const Banner = ({ isDarkTheme, onToggleTheme }) => {
-
-
   return (
     <div className={isDarkTheme ? "dark-theme" : "light-theme"}>
       <div className="banner d-flex align-items-center">
-      <div className="banner-left">
+        <div className="banner-left">
           <label className={`switch d-flex ${isDarkTheme ? "checked" : ""}`}>
             <input
               id="toggle-theme"
@@ -22,35 +21,33 @@ const Banner = ({ isDarkTheme, onToggleTheme }) => {
             <span className="dark-txt">dark</span>
           </label>
           <h1>
-           Lewis Mwangi<br /> Gichobi
-          
+            Lewis Mwangi<br /> Gichobi
           </h1>
           <div className="inner-desc">
             <p>
-            <motion.div
-          variants={fadeIn("up", 0.4)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className="mtion"
-        >
-          <span className="mi-4"> </span>
-          <TypeAnimation
-            sequence={[
-              "SOFTWARE ENGINEER",
-              2000,
-              "FULL STACK DEVELOPER",
-              2000,
-              "MACHINE LEARNING ENTHUSIAST",
-              2000,
-            ]}
-            speed={70}
-            
-            className="text-accent"
-            wrapper="span"
-            repeat={Infinity}
-          />
-        </motion.div>
+              <motion.div
+                variants={fadeIn("up", 0.4)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="mtion"
+              >
+                <span className="mi-4"> </span>
+                <TypeAnimation
+                  sequence={[
+                    "SOFTWARE ENGINEER",
+                    2000,
+                    "FULL STACK DEVELOPER",
+                    2000,
+                    "MACHINE LEARNING ENTHUSIAST",
+                    2000,
+                  ]}
+                  speed={70}
+                  className="text-accent"
+                  wrapper="span"
+                  repeat={Infinity}
+                />
+              </motion.div>
             </p>
             <form>
               <div className="form-group d-flex flex-wrap">
@@ -78,38 +75,52 @@ const Banner = ({ isDarkTheme, onToggleTheme }) => {
                 </a>
               </li>
               <li>
-              <a
-              href="https://www.instagram.com/gi.chobi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
+                <a
+                  href="https://www.instagram.com/gi.chobi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
               </li>
               <li>
-              <a
-              href="https://x.com/l_kigwa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-square-x-twitter"></i>
-            </a>
+                <a
+                  href="https://x.com/l_kigwa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
               </li>
-              <li>  <a
-              href="https://github.com/Kigwaaaa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-github"></i>
-            </a></li>
-              <li> <a
-              href="https://www.https://www.linkedin.com/in/lewis-gichobi-820830265/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a></li>
-            
+              <li>
+                <a
+                  href="https://github.com/Kigwaaaa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/cv/cv.pdf"
+                  download="Lewis_Mwangi_CV.pdf"
+                  className="download-cv-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-download"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/lewis-gichobi-820830265/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
             </ul>
             <span className="sss">My Socials</span>
           </div>
