@@ -57,7 +57,7 @@ export default function Projects({ isDarkTheme }) {
     },
    
     {
-      id: 3,
+      id: 2,
       title: (
         <a
           href="https://gichobiportfolio.onrender.com"
@@ -79,6 +79,58 @@ export default function Projects({ isDarkTheme }) {
         "FontAwesome",
         "Ant Design",
         "Material-UI",
+      ],
+    },
+    {
+      id: 3,
+      title: (
+        <a
+          href="#"
+          className="tittle"
+          target="_blank"
+            rel="noopener noreferrer"
+        >
+          Mpesa Visualizer App
+        </a>
+      ),
+      year: "2025",
+      images: [ "/assets/Bizzscreenshot.png"],
+      description:
+        "This is a Mpesa Visualizer App that allows you to visualize your Mpesa transactions. It is an MVP that I am working on. The final product should use Mpesa api to fetch the data, but currently uses regular expressions to parse the data from the screenshot.",
+      technologies: [
+        "Supabase",
+        "Tailwind CSS",
+        "React.js",
+        "Fontawesome icons",
+        "React"
+
+        
+      ],
+    },
+    {
+      id: 4,
+      title: (
+        <a
+          href="#"
+          className="tittle"
+          target="_blank"
+            rel="noopener noreferrer"
+        >
+          NeemaMed
+        </a>
+      ),
+      year: "2025",
+      images: [ "/assets/Screenshot 2025-05-16 at 11.20.10.png"],
+      description:
+        "The system is designed to streamline healthcare operations by providing a centralized platform for managing patient records, appointments, and lab tests, making it easier for healthcare providers to deliver efficient care while maintaining accurate medical records.",
+      technologies: [
+        "Vite",
+        "Tailwind CSS",
+        "React.js",
+        "Eslint",
+        "React"
+
+        
       ],
     },
     ];
