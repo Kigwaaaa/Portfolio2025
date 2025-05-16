@@ -111,7 +111,7 @@ export default function Projects({ isDarkTheme }) {
       id: 4,
       title: (
         <a
-          href="#"
+          href="https://github.com/Kigwaaaa/Med"
           className="tittle"
           target="_blank"
             rel="noopener noreferrer"
