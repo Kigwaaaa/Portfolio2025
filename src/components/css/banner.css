@@ -65,11 +65,3 @@
   opacity: 1;
   transform: scale(1.1);
 }
-
-.light-theme h1 {
-  color: #000 !important;
-}
-
-.dark-theme h1 {
-  color: #fff !important;
-}
