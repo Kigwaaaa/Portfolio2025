@@ -89,7 +89,7 @@ const Banner = ({ isDarkTheme, onToggleTheme }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
                 </a>
               </li>
               <li>
