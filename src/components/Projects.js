@@ -128,12 +128,35 @@ export default function Projects({ isDarkTheme }) {
         "Tailwind CSS",
         "React.js",
         "Eslint",
-        "React"
-
-        
+        "React",
       ],
     },
-    ];
+    {
+      id: 5,
+      title: (
+        <a
+          href="https://kenyaschoolfinder.co.ke/"
+          className="tittle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kenya School Finder
+        </a>
+      ),
+      year: "2025",
+      images: ["/assets/kenya-school-finder.png"],
+      description:
+        "A comprehensive platform for finding and comparing schools in Kenya. Features include school search, detailed profiles, location-based recommendations, and user reviews.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AWS",
+        "Material-UI",
+      ],
+    },
+  ];
 
   return (
     <div className={isDarkTheme ? "dark-theme" : "light-theme"}>
