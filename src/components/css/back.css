@@ -313,7 +313,7 @@ li {
 .banner-left h1 {
   margin-bottom: 0px;
   position: relative;
-  color: rgb(255, 6, 164);
+  color: #000; /* Black color in light mode */
 }
 .dark-theme .banner-left h1 {
   color: #ffffff;
