@@ -146,7 +146,7 @@ export default function Projects({ isDarkTheme }) {
       year: "2025",
       images: ["/assets/kenya-school-finder.png"],
       description:
-        "A comprehensive platform for finding and comparing schools in Kenya. Features include school search, detailed profiles, location-based recommendations, and user reviews.",
+        "A comprehensive platform for finding and comparing schools in Kenya. Features include school search, detailed profiles, location-based recommendations, and user reviews.I did the wireframes for the admin dashboard of the website",
       technologies: [
         "React.js",
         "Node.js",
