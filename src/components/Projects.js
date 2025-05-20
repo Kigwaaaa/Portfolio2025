@@ -148,6 +148,7 @@ export default function Projects({ isDarkTheme }) {
       description:
         "A comprehensive platform for finding and comparing schools in Kenya. Features include school search, detailed profiles, location-based recommendations, and user reviews.I did the wireframes for the admin dashboard of the website",
       technologies: [
+        "Figma",
         "React.js",
         "Node.js",
         "Express.js",
