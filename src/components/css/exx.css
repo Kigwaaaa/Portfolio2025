@@ -123,6 +123,7 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 60px;
+    color: var(--black-color); /* Use the theme color variable */
 }
 
 header .header-content .header-content-inner hr {
