@@ -44,6 +44,18 @@ export const Skills = ({ isDarkTheme }) => {
             </Flex>
           </div>
           <div className="containers">
+          <i class="devicon-figma-plain"></i>
+            Figma
+            <Flex gap="small" vertical>
+              <Progress
+                percent={100}
+                steps={5}
+                size="small"
+                strokeColor="##ff299b"
+              />
+            </Flex>
+          </div>
+          <div className="containers">
             <i className="devicon-react-original"></i>
             ReactJs
             <Flex gap="small" vertical>
@@ -115,6 +127,7 @@ export const Skills = ({ isDarkTheme }) => {
               />
             </Flex>
           </div>
+          
           <div className="containers">
             <i className="devicon-python-plain  "></i>
             Python
@@ -142,6 +155,18 @@ export const Skills = ({ isDarkTheme }) => {
           <div className="containers">
             <i className="devicon-mongodb-plain  "></i>
             MongoDB
+            <Flex gap="small" vertical>
+              <Progress
+                percent={100}
+                steps={5}
+                size="small"
+                strokeColor="#ff299b"
+              />
+            </Flex>
+          </div>
+          <div className="containers">
+          <i class="devicon-canva-original"></i>
+            Canva
             <Flex gap="small" vertical>
               <Progress
                 percent={100}
