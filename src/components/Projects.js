@@ -44,9 +44,9 @@ export default function Projects({ isDarkTheme }) {
         </a>
       ),
       year: "2025",
-      images: ["/assets/kenya school finder.png"],
+      images: ["/assets/kenya corruption score.png"],
       description:
-        "The Kenyan Corruption Score project is a React-based single-page web app that analyzes corruption scores for 21 Kenyan ministries and 47 counties in the 2024-2025 financial year. It calculates scores using Financial Irregularities (FI), Corruption Cases (CC), Budget Impact (BI), and Perception Rank (PI). Key features include interactive UI with tables and charts, data management with CSV export/import, trend analysis of corruption scores, AI chatbot integration, and accessibility features. The app uses sample data and aims to provide an intuitive tool for studying Kenyan governance and corruption.",
+        "The Kenyan Corruption Score project is a React-based single-page web app that analyzes corruption scores for 21 Kenyan ministries and 47 counties in the 2024-2025 financial year. It calculates scores using Financial Irregularities (FI), Corruption Cases (CC), Budget Impact (BI), and Perception Rank (PI), with the formula: Score = (0.4 * log(1 + FI_Scaled)) + (0.3 * CC_Scaled) + (0.2 * BI_Scaled) + (0.1 * PI_Scaled).\n\nKey features include:\n- Interactive UI: Displays data via tables, Chart.js stacked bar charts, and a Leaflet county map, with modals for ministry (Cabinet Secretary) and county (governor) details.\n- Data Management: Supports CSV export/import, user annotations (localStorage), and an admin section (password: 'admin123') for editing data.\n- Trend Analysis: Visualizes 2022–2025 corruption score trends (line chart) using data scraped from EACC (eacc.go.ke), OAG (oagkenya.go.ke), and CoB (cob.go.ke) via scrape_kenya_data.py.\n- AI Chatbot: Integrates Grok/OpenAI API to answer data queries (e.g., 'Why is Nairobi's score high?').\n- Accessibility: Offers text-to-speech (Web Speech API), high-contrast theme, and keyboard navigation.\n- Deployment: Designed for static hosting on Render, with scraping script run locally or on cloud services.\n\nThe app uses sample data (e.g., Health: FI=104B KSh, Nairobi: FI=0.414B KSh) and estimates 2025 figures based on 2024 trends (e.g., 5–10% FI increase). It aims to provide an intuitive, data-driven tool for studying Kenyan governance and corruption, with plans for further enhancements like real-time data updates.",
       technologies: [
         "React.js",
         "Chart.js",
@@ -54,8 +54,9 @@ export default function Projects({ isDarkTheme }) {
         "OpenAI API",
         "Web Speech API",
         "Python (Data Scraping)",
+        "CSV Import/Export",
+        "LocalStorage",
         "Material-UI",
-        "CSV Processing"
       ],
     },
     
