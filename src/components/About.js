@@ -28,19 +28,7 @@ export const About = ({ isDarkTheme }) => {
               
               </Typography>
               <Typography variant="body1" component="span">
-                , a Motivated and results-driven Computer Science student seeking a position within a large organisation as an intern. Offering a foundation in front-end programming, UI/UX design and project management, with a proven ability to drive efficiency, deliver successful outcomes and collaborate within cross-functional teams, very much eager to contribute to your innovative projects and further develop my skills in a dynamic environment. . My expertise spans web
-                and mobile application development, DevOps, and cloud
-                engineering, with a strong focus on the MERN stack (MongoDB,
-                Express, React, Node.js). I excel in designing scalable
-                architectures, automating processes, and implementing CI/CD
-                pipelines for seamless deployments. Additionally, I have
-                hands-on experience with GCP and Kubernetes, ensuring robust and
-                scalable cloud solutions. My journey also includes developing
-                embedded software for edge processing, blending creativity with
-                technical prowess. I am driven by a passion for transforming
-                complex challenges into elegant solutions and am always eager to
-                explore new technologies. Thank you for visiting and joining me
-                on this tech adventure! 💜
+                , Hi, I’m Lewis, a passionate Computer Science student crafting innovative solutions through AI and full-stack development. I specialize in the MERN stack (MongoDB, Express, React, Node.js), building user-focused apps like a mobile-friendly M-Pesa seller platform and Flicker Zone delivery system. My AI projects include a WhatsApp chatbot for a Kenyan photo studio and a web app visualizing corruption scores with React and Chart.js. I leverage DevOps with CI/CD pipelines, GCP, and Kubernetes for scalable deployments, and ensure quality with Postman and Selenium. Driven to solve complex challenges, I’m excited to explore new technologies. Thanks for visiting my portfolio!
               </Typography>
             </motion.div>
           </Grid>

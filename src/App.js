@@ -20,7 +20,7 @@ import Footer from './components/Footer';
 
 window.$ = $;
 export default function App() {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
 
   const handleThemeToggle = () => {
     setIsDarkTheme(!isDarkTheme);
