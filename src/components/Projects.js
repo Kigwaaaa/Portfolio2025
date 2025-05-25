@@ -32,6 +32,34 @@ export default function Projects({ isDarkTheme }) {
 
   const projects = [
     {
+      id: 6,
+      title: (
+        <a
+          href="https://github.com/Kigwaaaa/Kenyan-Corruption-Score"
+          className="tittle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kenyan Corruption Score
+        </a>
+      ),
+      year: "2025",
+      images: ["/assets/kenya school finder.png"],
+      description:
+        "The Kenyan Corruption Score project is a React-based single-page web app that analyzes corruption scores for 21 Kenyan ministries and 47 counties in the 2024-2025 financial year. It calculates scores using Financial Irregularities (FI), Corruption Cases (CC), Budget Impact (BI), and Perception Rank (PI). Key features include interactive UI with tables and charts, data management with CSV export/import, trend analysis of corruption scores, AI chatbot integration, and accessibility features. The app uses sample data and aims to provide an intuitive tool for studying Kenyan governance and corruption.",
+      technologies: [
+        "React.js",
+        "Chart.js",
+        "Leaflet",
+        "OpenAI API",
+        "Web Speech API",
+        "Python (Data Scraping)",
+        "Material-UI",
+        "CSV Processing"
+      ],
+    },
+    
+    {
       id: 1,
       title: (
         <a
