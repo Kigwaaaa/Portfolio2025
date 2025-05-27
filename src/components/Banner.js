@@ -103,8 +103,8 @@ const Banner = ({ isDarkTheme, onToggleTheme }) => {
               </li>
               <li>
                 <a
-                  href="/cv/cv.pdf"
-                  download="Lewis_Mwangi_CV.pdf"
+                  href="/cv/LEWISGICHOBICV.docx"
+                  download="LEWISGICHOBICV.docx"
                   className="download-cv-btn"
                   target="_blank"
                   rel="noopener noreferrer"
