@@ -13,12 +13,10 @@ import "./css/Projects.css";
 import { Carousel } from "antd";
 
 export default function Projects({ isDarkTheme }) {
-  const [open, setOpen] = React.useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   const openModal = (project) => {
     setSelectedProject(project);
     setShow(true);
@@ -32,7 +30,7 @@ export default function Projects({ isDarkTheme }) {
 
   const projects = [
     {
-      id: 6,
+      id: 1,
       title: (
         <a
           href="https://github.com/Kigwaaaa/Kenyan-Corruption-Score"
@@ -61,7 +59,7 @@ export default function Projects({ isDarkTheme }) {
     },
     
     {
-      id: 1,
+      id: 2,
       title: (
         <a
           href="https://lewisgichobi.onrender.com"
@@ -86,7 +84,7 @@ export default function Projects({ isDarkTheme }) {
     },
    
     {
-      id: 2,
+      id: 3,
       title: (
         <a
           href="https://gichobiportfolio.onrender.com"
@@ -111,13 +109,13 @@ export default function Projects({ isDarkTheme }) {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: (
         <a
-          href="#"
+          href="https://github.com/Kigwaaaa/mpesa-visualizer"
           className="tittle"
           target="_blank"
-            rel="noopener noreferrer"
+          rel="noopener noreferrer"
         >
           Mpesa Visualizer App
         </a>
@@ -137,7 +135,7 @@ export default function Projects({ isDarkTheme }) {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: (
         <a
           href="https://github.com/Kigwaaaa/Med"
@@ -161,7 +159,7 @@ export default function Projects({ isDarkTheme }) {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: (
         <a
           href="https://kenyaschoolfinder.co.ke/"
@@ -184,6 +182,27 @@ export default function Projects({ isDarkTheme }) {
         "MongoDB",
         "AWS",
         "Material-UI",
+      ],
+    },
+    {
+      id: 7,
+      title: (
+        <a
+          href="https://www.youtube.com/watch?v=xep5gQZaq5o"
+          className="tittle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Edited Videos
+        </a>
+      ),
+      year: "2025",
+      images: ["/assets/Capture1.PNG", "/assets/Capture2.PNG"],
+      description:
+          "I edit videos for my clients. Here are some examples of my work:",
+      technologies: [
+        "Canva",
+        "Da Vinci Resolve"
       ],
     },
   ];
@@ -238,22 +257,73 @@ export default function Projects({ isDarkTheme }) {
             </Modal.Header>
 
             <Modal.Body className="custom-header">
-              <Carousel arrows infinite={false}>
-                {selectedProject.images.map((image, index) => (
-                  <div key={index}>
+              {selectedProject.id === 7 ? (
+                <div style={{ textAlign: 'center' }}>
+                  <div style={{ marginBottom: '2rem' }}>
                     <img
-                      src={image}
-                      alt={`Project image ${index + 1}`}
+                      src={selectedProject.images[0]}
+                      alt="Video Portfolio"
                       style={{
                         width: "100%",
                         height: "auto",
                         objectFit: "contain",
-                        maxHeight: "500px",
+                        maxHeight: "300px",
+                        marginBottom: "1rem"
                       }}
                     />
+                    <Typography variant="h6" style={{ marginBottom: '1rem' }}>
+                      <a 
+                        href="https://www.youtube.com/watch?v=xep5gQZaq5o" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#007bff', textDecoration: 'none' }}
+                      >
+                        View my video portfolio
+                      </a>
+                    </Typography>
                   </div>
-                ))}
-              </Carousel>
+                  <div>
+                    <img
+                      src={selectedProject.images[1]}
+                      alt="Showreel"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "contain",
+                        maxHeight: "300px",
+                        marginBottom: "1rem"
+                      }}
+                    />
+                    <Typography variant="h6" style={{ marginBottom: '1rem' }}>
+                      <a 
+                        href="https://www.instagram.com/h.earmeout/reel/DJr2C4TtL28/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#007bff', textDecoration: 'none' }}
+                      >
+                        Watch my showreel
+                      </a>
+                    </Typography>
+                  </div>
+                </div>
+              ) : (
+                <Carousel arrows infinite={false}>
+                  {selectedProject.images.map((image, index) => (
+                    <div key={index}>
+                      <img
+                        src={image}
+                        alt={`Project ${index + 1}`}
+                        style={{
+                          width: "100%",
+                          height: "auto",
+                          objectFit: "contain",
+                          maxHeight: "500px",
+                        }}
+                      />
+                    </div>
+                  ))}
+                </Carousel>
+              )}
 
               <div>
                 <Typography sx={{ mt: 2 }}>
